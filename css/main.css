@@ -1,0 +1,70 @@
+body {
+    background: url(../img/vjaSDB8.jpg) no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    font-family: "Courgette";
+    color: #fff;
+    padding-top: 30px;
+}
+.container {
+    width: 600px;
+    background: rgba(31, 31, 31, 0.66);
+}
+.titulo {
+    flex-shrink: 100px;
+    color: #ff5ed4;
+}
+input {
+    color: #000;
+}
+.btn {
+    color: #123ac1;
+    background: #ff5ed4;
+    border: none;
+    font-size: 25px;
+}
+.btn:hover {
+    background: tomato;
+    font-size: 25px;
+    color: #fff;
+}
+label {
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+.row {
+    padding-bottom: 10px;
+}
+.link-codigo {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    display: block;
+    font-family: "Amatic SC";
+}
+.link-codigo:hover {
+    color: red;
+    text-decoration: none;
+}
+.btn-links {
+    color: #123ac1;
+    font-size: 23px;
+    background: #ff5ed4;
+    padding: 8px;
+    border-radius: 5px;
+}
+.btn-links:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.btn-sgte {
+    float: right;
+}
+.loro {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
