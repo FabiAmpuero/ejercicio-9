@@ -1,8 +1,8 @@
 function evaluar(){
     var horaActual = document.getElementById("hora_actual").value;
     var loroHabla = document.getElementById("loro_habla").value;
-    var habla = true;
     var salida = document.getElementById("salida");
+    var habla = true;
         
     if (loroHabla == "2"){
         habla = false;
@@ -36,7 +36,7 @@ function evaluar(){
             salida.innerHTML = "no";
         }
     }
-    else {
+    else{
         salida.innerHTML = "no";
     }
 }
